@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --fonte1: 'Prompt', sans-serif;
+    --fonte2: 'Changa', sans-serif;
+    --fonte3:  'Indie Flower', cursive;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte3);
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: var(--fonte2);padding-top: 50px;
+
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.3em;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: var(--fonte3);
+}
+
+.text {
+    margin: 20px 20px;
+    padding: 10px 0px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.white {
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.pic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    background-color: rgb(180, 136, 250);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+}
+
+.first {
+    background-image: url('../images/background001.jpg');
+}
+
+.second {
+    background-image: url('../images/background002.jpg');
+}
+
+.textimage {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    width: 350px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.0em;
+    font-family: var(--fonte1);
+}
